@@ -1,0 +1,80 @@
+body {
+    color: azure;
+    background-image: url("images/stars.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav li a {
+    float: left;
+    width: 33.33%;
+    display: block;
+    text-align: center;
+    background-color: darkslategray;
+    color: azure;
+    font-size: 2em;
+    height: 1em;
+    padding: auto;
+    text-decoration: none;
+    padding-bottom: .5em;
+}
+
+nav li a:hover {
+    background-color: azure;
+    color: darkslategray;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    background-color: azure;
+    color: darkslategray
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    height: 2em;
+}
+
+footer {
+    background-color: darkslategray;
+}
+
+#main {
+    height: 100%;
+    background-color: darkslategray;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 2em;
+}
+
+html,body {
+    height:100%;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 5em;
+    text-decoration-thickness: 25%;
+    border-bottom: 1px solid azure;
+    margin: 0em auto .7em;
+    padding-top: .5em;
+}
+
+div.container {
+    display: flex;
+}

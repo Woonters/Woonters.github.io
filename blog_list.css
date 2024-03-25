@@ -1,0 +1,16 @@
+#blogs a {
+    text-decoration: none;
+    color: azure;
+}
+
+#blog_post {
+    display: block;
+    border-radius: 25px;
+    margin-left:15%;
+    margin-right: 15%;
+    
+}
+
+#blog_post:hover {
+    background-color: lightslategray;
+}
