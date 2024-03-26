@@ -48,21 +48,68 @@ nav {
     height: 2em;
 }
 
+#socials li {
+    list-style-type: none;
+}
+
+#socials li a {
+    padding: 5%;
+    margin: 5%;
+    width: 70%;
+    display: block;
+    background-color: lightslategray;
+    border-style: solid;
+    border-color: azure;
+    border-width: 0.4em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    text-decoration: none;
+    color: azure;
+    font-weight: bolder;
+}
+
+#socials {
+    float: left;
+    width: 50%;
+}
+
+#socials img {
+    width: 70%;
+    margin: 5%;
+}
+
+#bio {
+    float: right;
+    width: 50%;
+}
+
 footer {
     background-color: darkslategray;
 }
 
 #main {
-    height: 100%;
     background-color: darkslategray;
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 2em;
+    height: 110%;
 }
 
-html,body {
-    height:100%;
+#main p a {
+    color: beige;
+
+}
+
+#main p a:visited {
+    color: antiquewhite;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #title {
